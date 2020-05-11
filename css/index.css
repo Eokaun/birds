@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    background-color: #000;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvas {
+    background: url('../img/bg.png') center bottom no-repeat;
+    background-size: cover;
+}
+
+#fps {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.hidden {
+    display: none;
+}

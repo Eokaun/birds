@@ -1,0 +1,98 @@
+{
+  "ground": {
+    "level": 515
+  },
+  "bodies": [
+    {
+      "type": "box",
+      "position": {
+        "x": 700,
+        "y": 465
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "mass": 10,
+      "hp": 1
+    },
+    {
+      "type": "box",
+      "position": {
+        "x": 620,
+        "y": 400
+      },
+      "size": {
+        "width": 75,
+        "height": 75
+      },
+      "mass": 1000,
+      "hp": 2
+    },
+    {
+      "type": "box",
+      "position": {
+        "x": 640,
+        "y": 350
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "mass": 10,
+      "hp": 1
+    },
+    {
+      "type": "box",
+      "position": {
+        "x": 770,
+        "y": 440
+      },
+      "size": {
+        "width": 75,
+        "height": 75
+      },
+      "mass": 1000,
+      "hp": 2
+    },
+    {
+      "type": "enemy1",
+      "position": {
+        "x": 700,
+        "y": 415
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "mass": 2,
+      "hp": 1
+    },
+    {
+      "type": "enemy2",
+      "position": {
+        "x": 780,
+        "y": 350
+      },
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "mass": 2,
+      "hp": 2
+    },
+    {
+      "type": "wood",
+      "position": {
+        "x": 350,
+        "y": 150
+      },
+      "size": {
+        "width": 20,
+        "height": 200
+      },
+      "mass": 100000,
+      "hp": 2
+    }
+  ]
+}

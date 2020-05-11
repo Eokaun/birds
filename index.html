@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Angry Birds</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Canvas et indicateur FPS -->
+    <main>
+        <canvas id="canvas"></canvas>
+        <p id="fps">...</p>
+    </main>
+    <!-- On précharge les images -->
+    <div class="hidden">
+        <img src="img/bullet1.png" id="bullet1"/>
+        <img src="img/bullet2.png" id="bullet2"/>
+        <img src="img/enemy1.png" id="enemy1"/>
+        <img src="img/enemy2.png" id="enemy2"/>
+        <img src="img/wood.png" id="wood"/>
+        <img src="img/box.png" id="box"/>
+        <img src="img/slingshot.png" id="slingshot"/>
+    </div>
+    <!-- On lance le jeu -->
+    <script src="js/vector.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/rect.js"></script>
+    <script src="js/body.js"></script>
+    <script src="js/sprite.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/loader.js"></script>
+</body>
+</html>

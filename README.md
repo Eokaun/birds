@@ -14,4 +14,4 @@ Les niveaux sont représentés par des fichiers JSON, présents dans le dossier 
 
 Pour en faire le niveau chargé, rendez-vous dans `js/loader.js`
 et remplacez `default` par le nom de votre fichier JSON.
-# birds
+
